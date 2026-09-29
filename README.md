@@ -2,7 +2,7 @@
 
 A lightweight Python script for automatically detecting SSH brute-force attackers and blocking them via iptables.
 
-## 🇬🇧 About
+## About
 - **Log Parsing:** Reads `auth.log` for failed login attempts (`Failed password`).
 - **Regular Expressions:** Extracts intruder IPv4 addresses using the `re` module.
 - **Attempt Tracking:** Counts failed attempts and maintains a local blocklist (`banned_ips.txt`).
