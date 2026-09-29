@@ -9,9 +9,12 @@ A lightweight Python script for automatically detecting SSH brute-force attacker
 - **Blocking:** Generates firewall rules (`iptables`).
 
 ### Usage
-```bash
+
 sudo python3 pars.py
 
+---
+<details>
+<summary>🇷🇺 По-русски</summary>
 
 # Simple SSH Defender
 
@@ -24,5 +27,5 @@ sudo python3 pars.py
 - Генерация правил блокировки для фаервола (`iptables`).
 
 ## 🚀 Запуск
-```bash
+
 sudo python3 pars.py
